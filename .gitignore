@@ -1,6 +1,32 @@
+# OS files
 .DS_Store
+desktop.ini
+
+# Jupyter / Python cache
 .ipynb_checkpoints/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Local environments / secrets
+.env
 .venv/
+venv/
 env/
+.kaggle/
+kaggle.json
+
+# Local data and generated outputs
+data/
+outputs/
+checkpoints/
+runs/
+wandb/
+logs/
+
+# Large model/artifact files
+*.zip
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
